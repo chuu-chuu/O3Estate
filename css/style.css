@@ -24,7 +24,7 @@ body {
     line-height: 27px;
 }
 h3 {
-    font-size: 46px;
+    font-size: 36px;
     font-family: TekoFont-Regular;
     margin: 0;
     line-height: 1;
@@ -41,29 +41,8 @@ h2 {
 .coming-soon-content {
     text-align: center;
 }
-.coming-soon-text {
-    width: 470px;
-    max-width: 100%;
-    margin-bottom: 45px;
-}
-.coming-soon-content a {
-    background: #d3af36;
-    padding: 20px 30px;
-    color: #000;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #d3af36;
-    transition: 0.3s linear;
-}
-.coming-soon-content a:hover {
-    background: transparent;
-    transition: 0.3s linear;
-    color: #d3af36;
-}
+
+
 .logo {
     margin-bottom: 25px;
-}
-.line {
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
