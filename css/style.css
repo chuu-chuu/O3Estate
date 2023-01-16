@@ -8,12 +8,12 @@ h3{
     src: url(../fonts/Work_Sans/static/WorkSans-Regular.ttf);
 }
 @font-face {
-    font-family: TekoFont-Bold;
-    src: url(../fonts/Teko/Teko-Bold.ttf);
-}
-@font-face {
     font-family: TekoFont-Medium;
     src: url(../fonts/Teko/Teko-Medium.ttf);
+}
+@font-face {
+    font-family: TekoFont-Regular;
+    src: url(../fonts/Teko/Teko-Regular.ttf);
 }
 /* video, .uk-position-cover {
     position: fixed;
@@ -25,16 +25,18 @@ body {
 }
 h3 {
     font-size: 46px;
-    font-family: TekoFont-Medium;
+    font-family: TekoFont-Regular;
     margin: 0;
+    line-height: 1;
     
 }
 h2 {
     color: #D4AF37;
-    font-family: TekoFont-Bold;
+    font-family: TekoFont-Medium;
     font-size: 56px;
     margin: 0;
     margin-top: 15px;
+    line-height: 1;
 }
 .coming-soon-content {
     text-align: center;
@@ -62,6 +64,6 @@ h2 {
     margin-bottom: 25px;
 }
 .line {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
