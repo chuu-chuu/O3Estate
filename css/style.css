@@ -28,21 +28,27 @@ h3 {
     font-family: TekoFont-Regular;
     margin: 0;
     line-height: 1;
+    font-weight: 100;
     
 }
 h2 {
-    color: #D4AF37;
+    
     font-family: TekoFont-Medium;
     font-size: 56px;
     margin: 0;
-    margin-top: 15px;
     line-height: 1;
+    background: -webkit-linear-gradient(#D4AF37, #F4DB76, #B07908, #D4AF37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .coming-soon-content {
     text-align: center;
 }
 
-
+.line {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .logo {
     margin-bottom: 25px;
 }
